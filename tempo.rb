@@ -32,8 +32,7 @@ class Tempo
   end
 
   def report
-    puts "\n#{bpm.round(2)} taps per minute"
-    puts
+    puts "\n#{bpm.round(2)} taps per minute\n\n"
     puts "4/4 downbeats?\t#{bpm.round(2)*4 } bpm"
     puts "3/4 downbeats?\t#{bpm.round(2)*3 } bpm"
     puts "backbeats?\t#{   (bpm*2).round(2)} bpm"
